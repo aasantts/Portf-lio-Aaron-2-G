@@ -1,0 +1,22 @@
+:root{
+  --cor-fundo: #fafafa;
+  --cor-destaque: #56e7fb;
+  --cor-texto: #bb86b9;
+}
+
+body{
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+strong{
+  color: var(--cor-destaque);
+}
+
+a {
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
+  padding: 15px 40px;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
